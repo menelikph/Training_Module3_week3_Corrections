@@ -68,3 +68,25 @@ function actualizarProducto (id, datosActualizados){
         console.log("❌ Error al actualizar el producto:", error);
     })
 }
+
+function eliminarProducto(id){
+  if((typeof id !== "number" && typeof id !== "string") || !id){
+    console.log("❌ El ID debe ser un número válido.");
+    return;
+  }
+  fetch(`http://localhost:3000/productos/${id}`, {
+    method: "DELETE"
+  })
+  .then(function(respuesta){
+    if (respuesta.ok){
+      console.log(`🗑️ Producto con ID ${id} eliminado con éxito.`)
+    }else{
+      console.log("❌ No se pudo eliminar el producto.");
+    }
+  })
+  .catch (function (error){
+    console.log("❌ Error al eliminar el producto:", error);
+  });
+}
+
+eliminarProducto("a86b")

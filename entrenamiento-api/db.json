@@ -1,27 +1,12 @@
 {
   "productos": [
     {
-      "id": "1",
-      "nombre": "Cuaderno",
-      "precio": 3000
-    },
-    {
       "id": "ec86",
       "nombre": "Lapicero",
       "precio": 2000
     },
     {
       "id": "3cdc",
-      "nombre": "Borrador",
-      "precio": 1000
-    },
-    {
-      "id": "fddb",
-      "nombre": "Lapicero",
-      "precio": 2000
-    },
-    {
-      "id": "a86b",
       "nombre": "Borrador",
       "precio": 1000
     }
