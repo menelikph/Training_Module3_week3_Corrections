@@ -9,6 +9,16 @@
       "id": "3cdc",
       "nombre": "Borrador",
       "precio": 1000
+    },
+    {
+      "id": "dd94",
+      "nombre": "cuaderno",
+      "precio": 12000
+    },
+    {
+      "id": "50cd",
+      "nombre": "hols",
+      "precio": 12000
     }
   ]
 }
